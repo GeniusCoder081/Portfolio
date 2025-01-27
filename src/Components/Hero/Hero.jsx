@@ -23,7 +23,7 @@ const Hero = () => {
       </p>
       <div className="hero-action flex items-center gap-[25px] font-bold mb-[50px]">
         <div
-          className="hero-connect gradientbtn py-[25px] px-[45px] border-2 border-transparent rounded-full cursor-pointer
+          className="hero-connect gradientbtn py-[25px] px-[45px] border-r-2 border-tra rounded-full cursor-pointer
             hover:border-2 hover:border-white"
         ><AnchorLink className='anchor-link decoration-none text-white' offset={50} href='#contact'>
           Connect With Me</AnchorLink>
