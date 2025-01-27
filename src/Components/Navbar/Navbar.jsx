@@ -101,7 +101,7 @@ const Navbar = () => {
       </ul>
       <div className="nav-connect py-[20px] px-[30px] border-2 border-transparent hover:border-2 hover:border-white rounded-full gradientbtn  cursor-pointer">
         <AnchorLink
-          className="anchor-link decoration-none text-white"
+          className="anchor-link decoration-none text-white text-[18px] font-bold"
           offset={50}
           href="#contact"
         >

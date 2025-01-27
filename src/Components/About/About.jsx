@@ -1,6 +1,6 @@
 import React from 'react'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/about_profile.svg'
+import profile_img from '../../assets/ritik123.jpg'
 const About = () => {
   return (
     <div id='about' className='about flex flex-col items-center justify-center gap-[80px] mx-[170px] my-[80px]'>
@@ -14,8 +14,8 @@ const About = () => {
             </div>
             <div className="about-right flex flex-col gap-[80px]">
                 <div className="about-para flex flex-col gap-[20px] font-medium text-[24px]">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem adipisci fuga ad, nam ratione deleniti.</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores unde illum perferendis officiis. Inventore quas rerum, sapiente aperiam nihil voluptate! Totam animi odit saepe exercitationem?</p>
+                    <p>As a passionate web developer, I specialize in creating dynamic, responsive, and user-friendly websites tailored to meet client needs. With expertise in HTML, CSS, JavaScript, and various frameworks, I focus on building seamless digital experiences that are both functional and visually appealing.</p>
+                    <p>I am committed to delivering high-quality, scalable solutions while ensuring optimal performance and user satisfaction. Let's bring your vision to life online!</p>
                 </div>
                 <div className="about-skills flex flex-col gap-[20px]">
                     <div className=" hover:scale-105 transition about-skill flex gap-[50px] items-center ">
@@ -39,15 +39,15 @@ const About = () => {
         </div>
         <div className="about-achievements flex w-[100%] justify-between mb-[80px] ">
             <div className="hover:scale-110 about-achievement items-center flex gap-[10px] flex-col transition">
-                <h1 className='text-[60px] font-bold herotextclr'>10+</h1>
+                <h1 className='text-[60px] font-bold herotextclr'>01+</h1>
                 <p className='text-[22px]'>YEARS OF EXPERIENCE</p>
             </div>
             <div className="hover:scale-110 about-achievement items-center flex gap-[10px] flex-col transition">
-                <h1 className='text-[60px] font-bold herotextclr'>90+</h1>
+                <h1 className='text-[60px] font-bold herotextclr'>10+</h1>
                 <p className='text-[22px]'>PROJECTS COMPLETED</p>
             </div>
             <div className="hover:scale-110 about-achievement items-center flex gap-[10px] flex-col transition">
-                <h1 className='text-[60px] font-bold herotextclr'>15+</h1>
+                <h1 className='text-[60px] font-bold herotextclr'>10+</h1>
                 <p className='text-[22px]'>HAPPY CLIENTS</p>
             </div>
         </div>

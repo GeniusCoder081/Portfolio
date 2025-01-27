@@ -15,7 +15,7 @@ const Services = () => {
       </div>
       <div className="services-container grid grid-flow-col grid-rows-2 gap-11">
         {services_Data.map((Service ,index)=>{
-            return <div key={index} className="services-format flex flex-col justify-center gap-[20px] p-[60px] rounded-2xl border-2 border-white transition cursor-pointer hover:border-[#ff00ff] cardhover hover:scale-105">
+            return <div key={index} className="services-format flex flex-col justify-center gap-[20px] p-[30px] rounded-2xl border-2 border-white transition cursor-pointer hover:border-[#ff00ff] cardhover hover:scale-105">
                 <h3 className="text-[28px] font-semibold ">{Service.s_no}</h3>
                 <h2 className="text-[38px] font-bold herotextclr">{Service.s_name}</h2>
                 <p className="text-[#d4d4d4] text-[24px] max-w-[300px]">{Service.s_desc}</p>

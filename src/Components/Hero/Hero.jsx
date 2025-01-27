@@ -14,12 +14,12 @@ const Hero = () => {
       <div className=" flex justify-center">
         <h1 className="items-center text-[90px] text-center max-w-[70%] font-bold">
           <span className="herotextclr">I'm Ritik Prajapati,</span>frontend
-          developer based in USA.
+          developer based in India.
         </h1>
       </div>
       <p className="max-w-[50%] items-center text-center text-[24px]">
-        I am a frontend developer from califonia,USA with 10 year of experience
-        in multiple companies like Microsoft,Tesla and Apple.
+      I am a frontend developer from Meerut, India with 1 year of
+      experience in Webian world company.
       </p>
       <div className="hero-action flex items-center gap-[25px] font-bold mb-[50px]">
         <div

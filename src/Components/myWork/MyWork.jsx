@@ -15,7 +15,7 @@ const MyWork = () => {
           </div>
           <div className="mywork-container grid grid-flow-col grid-rows-2 gap-11">
             {mywork_data.map((work,index)=>{
-                return <img className='box-border w-[419px] h-[280px] transition cursor-pointer hover:scale-105 hover:border-4 border-[#ff00ff] rounded-2xl' key={index} src={work.w_img} alt=''/>
+                return <img className='box-border w-[380px] h-[258px] transition cursor-pointer hover:scale-105 hover:border-4 border-[#ff00ff] rounded-2xl' key={index} src={work.w_img} alt=''/>
             })}
           </div>
           <div className="mywork-showmore flex gap-[15px] rounded-full border-2 border-white px-[60px] py-[30px] text-[22px] font-medium mb-[80px] transition cursor-pointer  hover:gap-[30px]">

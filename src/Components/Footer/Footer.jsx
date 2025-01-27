@@ -1,5 +1,5 @@
 import React from "react";
-import footer_logo from "../../assets/footer_logo.svg";
+import footer_logo from "../../assets/genius-logo1.png";
 import user_icon from '../../assets/user_icon.svg'
 const Footer = () => {
   return (
@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="footer-top-left text-[20px] max-w-[400px]">
           <img src={footer_logo} alt="" />
           <p>
-            I am a frontend developer from califonia,USA with 10 year of
-            experience in multiple companies like Microsoft,Tesla and Apple.
+            I am a frontend developer from Meerut,India with 1 year of
+            experience in  company Webian world.
           </p>
         </div>
         <div className="footer-top-right flex items-center gap-[35px]">
